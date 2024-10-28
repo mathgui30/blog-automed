@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  header {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+  }
+  
+  .subtitle {
+    color: #7f8c8d;
+    font-size: 1.2rem;
+    border-bottom: 2px solid #2c3e50;
+    padding-bottom: 5px;
+  }
+  
+  article h2 {
+    font-size: 1.8rem;
+    margin-top: 20px;
+    color: #34495e;
+  }
+  
+  article p {
+    font-size: 1.1rem;
+    margin: 15px 0;
+    color: #555;
+  }
+  
+  ul {
+    margin: 10px 0;
+    padding-left: 20px;
+  }
+  
+  ul li {
+    margin: 5px 0;
+    font-size: 1.1rem;
+  }
+
+  .symptoms-cards {
+    margin-top: 30px;
+  }
+  
+  .card {
+    background: #f9f9f9;
+    padding: 15px;
+    margin: 10px 0;
+    border-bottom: #34495e;
+    border: 1px solid #dbdef2ad;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 50%;
+    transition: background 0.3s;
+    border-bottom: 2px solid #2c3e50;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+  }
+  
+  .card h3 {
+    margin: 0;
+    color: #2c3e50;
+  }
+  
+  .card-content {
+    display: none;
+    padding-top: 10px;
+    color: #555;
+    transition: max-height 0.3s ease-out;
+  }
+  .card.open .card-content {
+    display: block; 
+    max-height: 200px; 
+}
+
+  .card.open {
+    opacity: 0.9; 
+  }
+  
+  
+  .card:hover {
+    background: #f0f8ff;
+  }
+  
+  footer {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #95a5a6;
+  }
+  

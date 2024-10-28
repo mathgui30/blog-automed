@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>O Perigo da Automedicação</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>O Perigo da Automedicação</h1>
+      <p class="subtitle">Entenda os riscos de tomar medicamentos por conta própria</p>
+    </header>
+
+    <article>
+      <p>Nos dias de hoje, é cada vez mais comum as pessoas recorrerem à automedicação para tratar dores de cabeça, febre ou até mesmo problemas mais sérios, sem consultar um médico. No entanto, essa prática pode ser extremamente perigosa e trazer consequências graves para a saúde.</p>
+      
+      <h2>O que é automedicação?</h2>
+      <p>A automedicação é o ato de utilizar medicamentos sem orientação médica, baseando-se em experiências anteriores, recomendações de amigos ou familiares, ou até mesmo em propagandas de remédios. Embora pareça uma solução prática e rápida, a automedicação pode mascarar sintomas de doenças graves, retardar o diagnóstico correto e causar efeitos colaterais indesejados.</p>
+
+      <h2>Riscos da automedicação</h2>
+      <ul>
+        <li>Uso incorreto de medicamentos</li>
+        <li>Reações alérgicas</li>
+        <li>Dependência química</li>
+        <li>Interações medicamentosas perigosas</li>
+        <li>Agravamento de doenças preexistentes</li>
+        <li>Problemas cardíacos</li>
+      </ul>
+
+      <p>Portanto, antes de tomar qualquer medicamento, consulte sempre um profissional de saúde para garantir que você esteja fazendo o tratamento correto. A automedicação pode parecer uma solução rápida, mas a saúde deve ser sempre uma prioridade.</p>
+    </article>
+
+    <section class="symptoms-cards">
+      <h2>
+        Alternativas para Sintomas Comuns
+      </h2>
+
+      <div class="card" onclick="toggleCard(this)">
+        <h3>Dor de cabeça</h3>
+        <div class="card-content">
+          <p>
+            Experimente práticas de relaxamento, como meditação ou respiração profunda. A hidratação também ajuda a reduzir dores de cabeça causadas pela desidratação.
+
+          </p>
+        </div>
+      </div>
+
+      <div class="card" onclick="toggleCard(this)">
+        <h3>Febre</h3>
+        <div class="card-content">
+          <p>
+            Mantenha-se hidratado e use compressas frias para aliviar o desconforto. O repouso é fundamental para ajudar o corpo a combater infecções.
+            
+          </p>
+        </div>
+      </div>
+
+      <div class="card" onclick="toggleCard(this)">
+        <h3>Coriza</h3>
+        <div class="card-content">
+          <p>Inalações com vapor de água ajudam a aliviar a congestão nasal. Mantenha-se hidratado para reduzir a espessura do muco.</p>
+        </div>
+      </div>
+
+    </section>
+
+
+    <footer>
+      <p>Publicado em: 21 de outubro de 2024</p>
+    </footer>
+
+    <script>
+      function toggleCard(card) {
+        card.classList.toggle("open");
+      }
+      
+    </script>
+  </div>
+</body>
+</html>
